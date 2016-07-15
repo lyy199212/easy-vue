@@ -7,7 +7,7 @@ var CleanPlugin       = require('clean-webpack-plugin');// clean bulid file
 var webpackConfig     = module.exports = {};//　init object
 var production        = process.env.NODE_ENV === 'production';// production environment
 
-var domain            = 'http://easy-vue.local'; // your domain
+var domain            = 'http://tigerb.github.io/easy-vue'; // your domain
 
 // input
 webpackConfig.entry　 =　{
