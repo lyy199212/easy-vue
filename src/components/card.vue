@@ -18,7 +18,8 @@
       var self = this;
       fetch('/easy-vue')// server.php
       .then(function(response) {
-        return response.json()
+        // cancel note when you use it
+        // return response.json()
       }).then(function(json) {
         //fake data
         json = [
@@ -51,7 +52,8 @@
         var self = this;
         fetch('/easy-vue')//server.php
         .then(function(response) {
-          return response.json()
+          // cancel note when you use it
+          // return response.json()
         }).then(function(json) {
           //fake data
         json = [
