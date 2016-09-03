@@ -37,7 +37,7 @@
         self.$progress.start();
         self.isloadingComplete = false;
         self.busy = true;
-        fetch('/server.php')
+        fetch('/easy-vue')//server.php
         .then(function(response) {
           return response.json()
         }).then(function(json) {
